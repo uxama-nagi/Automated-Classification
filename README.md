@@ -1,1 +1,1 @@
-# This repository conatins the dataset mined from github
+This repository conatins the dataset mined from github
