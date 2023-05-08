@@ -14,5 +14,4 @@ If you want to run the mining-tool.py to search and mine repositories type this 
 Replace <code>"query" "your-access-token" [keywords] "output_dir" "number_rows_per_file</code> with your desired arguments
 
 Link to dataset<br>
-<button onclick="location.href='https://drive.google.com/drive/folders/1aXvGmVN9BM_1DCeN1-COZ48wsFOMbqCZ?usp=sharing'" type="button">
-         Download</button>
+https://drive.google.com/drive/folders/1aXvGmVN9BM_1DCeN1-COZ48wsFOMbqCZ?usp=sharing
