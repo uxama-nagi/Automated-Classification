@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import joblib
-import prepro
+from create_model import prepro
 
 model_path = None
 vectorizer_path = None
