@@ -14,4 +14,7 @@ If you want to run the mining-tool.py to search and mine repositories type this 
 Replace <code>"query" "your-access-token" [keywords] "output_dir" "number_rows_per_file</code> with your desired arguments
 
 Link to dataset<br>
-https://drive.google.com/drive/folders/1aXvGmVN9BM_1DCeN1-COZ48wsFOMbqCZ?usp=sharing
+https://drive.google.com/drive/folders/1aXvGmVN9BM_1DCeN1-COZ48wsFOMbqCZ?usp=sharing <br>
+
+<b>Note:</b> Make sure after downloading the data change the folder name. e.g. "Your Folder Name"<br>
+change <code>data = "dataset.csv"</code> to <code>data = "Your Folder Name" </code> in model_creater/*.py files 
