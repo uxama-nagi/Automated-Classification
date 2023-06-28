@@ -1,3 +1,7 @@
+<h1 style="text-align:center">Automated Classification of Performance Issues in Open-Source Repositories</h1><br>
+
+
+
 Step 1:<br>
 Download python in you system and make sure it is added to a system's path in <b>"System Environments Variables"</b>
 
