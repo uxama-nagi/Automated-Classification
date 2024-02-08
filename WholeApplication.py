@@ -36,13 +36,13 @@ class MainApp(tk.Tk):
         self.geometry("640x400")
         self.resizable(False, False)
 
-        logo = tk.PhotoImage(file=resource_path("logo.png"))
+        logo = tk.PhotoImage(file=resource_path("resource/logo.png"))
         self.iconphoto(False, logo)
 
         _canvas = tk.Canvas(self, width=640, height=400, bd=0, borderwidth=0)
         _canvas.pack()
         
-        self.bg_img = tk.PhotoImage(file=resource_path("main2.png"))
+        self.bg_img = tk.PhotoImage(file=resource_path("resource/main2.png"))
         _canvas.create_image(0,0, image=self.bg_img, anchor="nw")
 
         self.button1 = tk.Button(self, text="Mine Data", command=self.open_screen1, bg="#0085E2", fg="white")
@@ -54,7 +54,7 @@ class MainApp(tk.Tk):
 
         self.name_label = tk.Label(self, text="Muhammad Usama Bin Abad")
         self.name_label.place(x=475, y=380)
-        self.dwnd = tk.PhotoImage(file=resource_path("qicon.png"))
+        self.dwnd = tk.PhotoImage(file=resource_path("resource/qicon.png"))
         self.info = _canvas.create_image(592,20,  image=self.dwnd, anchor="nw")
         _canvas.tag_bind(self.info, "<Button-1>", self.open_info)
 
@@ -91,13 +91,13 @@ class Screen1(tk.Toplevel):
         self.geometry("640x520")
         self.resizable(False, False)
         # Logo and Background
-        logo = tk.PhotoImage(file = resource_path("logo.png"))
+        logo = tk.PhotoImage(file = resource_path("resource/logo.png"))
         self.iconphoto(False, logo)
 
         _canvas = tk.Canvas(self, width=640, height=400, bd=0, borderwidth=0)
         _canvas.pack()
 
-        self.bg_img = tk.PhotoImage(file= resource_path("image.png"))
+        self.bg_img = tk.PhotoImage(file= resource_path("resource/image.png"))
         _canvas.create_image(0,0, image=self.bg_img, anchor="nw")
         # Label and Text Field for Query
         _canvas.create_text(70,22, text="Please write the Query", font=("Open Sans", 10), anchor="nw")
@@ -327,14 +327,14 @@ class Screen2(tk.Toplevel):
         self.geometry("640x520")
         self.resizable(False, False)
         # Logo
-        logo = tk.PhotoImage(file = resource_path("logo.png"))
+        logo = tk.PhotoImage(file = resource_path("resource/logo.png"))
         self.iconphoto(False, logo)
 
         _canvas = tk.Canvas(self, width=640, height=400, bd=0, borderwidth=0)
         _canvas.pack()
 
         # Background
-        self.bg_img = tk.PhotoImage(file= resource_path("image.png"))
+        self.bg_img = tk.PhotoImage(file= resource_path("resource/image.png"))
         _canvas.create_image(0,0, image= self.bg_img, anchor="nw")
 
         # Csv label and upload button
@@ -553,13 +553,13 @@ class Screen3(tk.Toplevel):
         self.geometry("640x520")
         self.resizable(False, False)
         # Logo
-        logo = tk.PhotoImage(file = resource_path("logo.png"))
+        logo = tk.PhotoImage(file = resource_path("resource/logo.png"))
         self.iconphoto(False, logo)
 
         _canvas = tk.Canvas(self, width=640, height=400, bd=0, borderwidth=0)
         _canvas.pack()
         # Background
-        self.bg_img = tk.PhotoImage(file= resource_path("image.png"))
+        self.bg_img = tk.PhotoImage(file= resource_path("resource/image.png"))
         _canvas.create_image(0,0, image=self.bg_img, anchor="nw")
         # CSV Upload and Show
         _canvas.create_text(70,22, text="Select CSV file to classify:", font=("Open Sans", 10), anchor="nw")
